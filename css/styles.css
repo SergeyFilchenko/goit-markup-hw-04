@@ -282,6 +282,7 @@ color: var(--secondary-text-color);
     border-radius: 50%;
     justify-content: center;
     fill: #AFB1B8;
+    background: rgba(255, 255, 255, 0.1);
 }
 .social-title{
     
@@ -338,14 +339,15 @@ border-radius: 4px;
 background: var(--background2-color);
 }
 .footer{
-    margin-top: 0;
+    display: flex;
+    align-items: center;
     padding-top: 60px
 }
 .studio{
 color: var(--white-color);
 }
 .adress-footer{
-    margin-top: 20px;
+    padding-top: 20px;
 }
 .adress{
     
@@ -361,6 +363,26 @@ color: var(--white-color);
 
 .color{
     color: rgba(255, 255, 255, 0.6);
+}
+.social-footer{
+    padding-left: 70px;
+}
+.soc-title{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.soc-logo{
+    display: flex;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.soc-list:not(:last-child){
+    margin-right: 10px;
 }
 /* Портфолио */
 
