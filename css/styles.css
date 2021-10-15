@@ -244,7 +244,7 @@ border-radius: 0px 0px 4px 4px;
 .team{
     background: var(--white-color);
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
 }
 
 .participants{
@@ -263,6 +263,38 @@ line-height: 1.1;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--secondary-text-color);
+}
+.team-social{
+    background: white;
+}
+
+.social-list:hover, .social-list:focus{
+    fill: white;
+    background-color: var(--background-color);
+}
+.social-list{
+    cursor: pointer;
+    display: flex;
+    border: 1px transparent;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    fill: #AFB1B8;
+}
+.social-title{
+    
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.social-logo{
+    
+    width: 20px;
+    height: 20px;
 }
 
 /* Клиенты */
