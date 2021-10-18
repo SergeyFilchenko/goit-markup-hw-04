@@ -110,7 +110,7 @@ fill: currentColor;
 
 
 .hero{
-min-width: 1600px;
+width: 1600px;
 text-align: center;
 margin: 0;
 padding-top: 200px;
@@ -245,8 +245,7 @@ border-radius: 0px 0px 4px 4px;
 
 .team{
     background: var(--white-color);
-    padding-top: 30px;
-    padding-bottom: 16px;
+    padding: 30px;
 }
 
 .participants{
@@ -265,6 +264,7 @@ line-height: 1.1;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--secondary-text-color);
+margin-bottom: 16px;
 }
 
 .social-list:hover, .social-list:focus{
@@ -282,15 +282,13 @@ color: var(--secondary-text-color);
     justify-content: center;
     fill: #AFB1B8;
     background: rgba(255, 255, 255, 0.1);
-    margin-top: 16px;
+    
 }
 .social-title{
     
     display: flex;
     justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
+   
 }
 .social-logo{
     
